@@ -7,9 +7,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        lime: '#00b289',
-        text: '#4c4d5f',
-        yellow: '#f8db62',
+        light: '#fafafa',
+        dark: '#141414',
+        gray: '#696969',
+
         // Query devtools colors
         qd: {
           active: '#E8A801',
