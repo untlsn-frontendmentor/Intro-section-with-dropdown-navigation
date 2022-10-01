@@ -1,9 +1,20 @@
+import ShowLi from '~/components/views/header/parts/ShowLi';
+
 function DesktopNav() {
   return (
     <nav class="flex items-center justify-between flex-1 text-gray text-lg font-semibold">
       <ul class="flex items-center gap-8">
-        <li class="hover:text-dark cursor-pointer">Features</li>
-        <li class="hover:text-dark cursor-pointer">Company</li>
+        <ShowLi title="Features">
+          <li><i class="i-icon-todo" /> <span>Todo List</span></li>
+          <li><i class="i-icon-calendar" /> <span>Calendar</span></li>
+          <li><i class="i-icon-reminders" /> <span>Reminders</span></li>
+          <li><i class="i-icon-planning" /> <span>Planing</span></li>
+        </ShowLi>
+        <ShowLi title="Company">
+          <li>History</li>
+          <li>Our Team</li>
+          <li>Blog</li>
+        </ShowLi>
         <li class="hover:text-dark cursor-pointer">Careers</li>
         <li class="hover:text-dark cursor-pointer">About</li>
       </ul>
