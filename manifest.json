@@ -1,0 +1,157 @@
+{
+  "src/assets/images/image-hero-desktop.png": {
+    "file": "assets/image-hero-desktop.3bda6511.png",
+    "src": "src/assets/images/image-hero-desktop.png"
+  },
+  "src/assets/images/image-hero-mobile.png": {
+    "file": "assets/image-hero-mobile.b9d32923.png",
+    "src": "src/assets/images/image-hero-mobile.png"
+  },
+  "src/assets/images/client-databiz.svg": {
+    "file": "assets/client-databiz.3098feb2.svg",
+    "src": "src/assets/images/client-databiz.svg"
+  },
+  "src/assets/images/client-audiophile.svg": {
+    "file": "assets/client-audiophile.cdc1075f.svg",
+    "src": "src/assets/images/client-audiophile.svg"
+  },
+  "src/assets/images/client-meet.svg": {
+    "file": "assets/client-meet.1cf19dba.svg",
+    "src": "src/assets/images/client-meet.svg"
+  },
+  "src/assets/images/client-maker.svg": {
+    "file": "assets/client-maker.a770212d.svg",
+    "src": "src/assets/images/client-maker.svg"
+  },
+  "src/assets/images/logo.svg": {
+    "file": "assets/logo.d51e21d9.svg",
+    "src": "src/assets/images/logo.svg"
+  },
+  "src/components/views/solidQueryDevtools/react-query-icon.svg": {
+    "file": "assets/react-query-icon.933024a1.svg",
+    "src": "src/components/views/solidQueryDevtools/react-query-icon.svg"
+  },
+  "src/pages/_error.page.tsx": {
+    "file": "assets/src/pages/_error.page.dd75269d.js",
+    "src": "src/pages/_error.page.tsx",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-788d98fe.js"
+    ]
+  },
+  "src/pages/index.page.tsx": {
+    "file": "assets/src/pages/index.page.52b7cdef.js",
+    "src": "src/pages/index.page.tsx",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-ba7c608e.js",
+      "_chunk-788d98fe.js",
+      "_chunk-a9a06fd9.js"
+    ],
+    "assets": [
+      "assets/image-hero-mobile.b9d32923.png",
+      "assets/image-hero-desktop.3bda6511.png",
+      "assets/client-databiz.3098feb2.svg",
+      "assets/client-audiophile.cdc1075f.svg",
+      "assets/client-meet.1cf19dba.svg",
+      "assets/client-maker.a770212d.svg"
+    ]
+  },
+  "src/renderer/_default.page.client.tsx": {
+    "file": "assets/src/renderer/_default.page.client.c1cbdc88.js",
+    "src": "src/renderer/_default.page.client.tsx",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-788d98fe.js",
+      "_chunk-eb087b34.js",
+      "_chunk-a9a06fd9.js"
+    ],
+    "dynamicImports": [
+      "src/components/views/solidQueryDevtools/component.tsx",
+      "src/components/views/header/parts/MobileNav.tsx"
+    ],
+    "css": [
+      "assets/_default.page.client.615cd4bd.css"
+    ],
+    "assets": [
+      "assets/logo.d51e21d9.svg"
+    ]
+  },
+  "node_modules/.pnpm/vite-plugin-ssr@0.4.38_vite@3.1.4/node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js": {
+    "file": "assets/entry-client-routing.ef366938.js",
+    "src": "node_modules/.pnpm/vite-plugin-ssr@0.4.38_vite@3.1.4/node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js",
+    "isEntry": true,
+    "imports": [
+      "_chunk-405d3b53.js",
+      "_chunk-eb087b34.js"
+    ],
+    "dynamicImports": [
+      "src/pages/_error.page.tsx",
+      "src/pages/index.page.tsx",
+      "src/renderer/_default.page.client.tsx"
+    ]
+  },
+  "node_modules/.pnpm/vite-plugin-ssr@0.4.38_vite@3.1.4/node_modules/vite-plugin-ssr/dist/esm/client/entry.js": {
+    "file": "assets/entry-server-routing.a2d23c99.js",
+    "src": "node_modules/.pnpm/vite-plugin-ssr@0.4.38_vite@3.1.4/node_modules/vite-plugin-ssr/dist/esm/client/entry.js",
+    "isEntry": true,
+    "imports": [
+      "_chunk-405d3b53.js",
+      "_chunk-eb087b34.js"
+    ],
+    "dynamicImports": [
+      "src/pages/_error.page.tsx",
+      "src/pages/index.page.tsx",
+      "src/renderer/_default.page.client.tsx"
+    ]
+  },
+  "_chunk-788d98fe.js": {
+    "file": "assets/chunk-788d98fe.js"
+  },
+  "_chunk-ba7c608e.js": {
+    "file": "assets/chunk-ba7c608e.js"
+  },
+  "_chunk-a9a06fd9.js": {
+    "file": "assets/chunk-a9a06fd9.js",
+    "imports": [
+      "_chunk-788d98fe.js"
+    ]
+  },
+  "_chunk-eb087b34.js": {
+    "file": "assets/chunk-eb087b34.js"
+  },
+  "_chunk-405d3b53.js": {
+    "file": "assets/chunk-405d3b53.js"
+  },
+  "src/components/views/solidQueryDevtools/component.tsx": {
+    "file": "assets/component.f7bfa114.js",
+    "src": "src/components/views/solidQueryDevtools/component.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-788d98fe.js",
+      "_chunk-ba7c608e.js",
+      "src/renderer/_default.page.client.tsx",
+      "_chunk-eb087b34.js",
+      "_chunk-a9a06fd9.js"
+    ],
+    "assets": [
+      "assets/react-query-icon.933024a1.svg"
+    ]
+  },
+  "src/components/views/header/parts/MobileNav.tsx": {
+    "file": "assets/MobileNav.51541d5e.js",
+    "src": "src/components/views/header/parts/MobileNav.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-788d98fe.js",
+      "_chunk-ba7c608e.js"
+    ]
+  },
+  "src/renderer/_default.page.client.css": {
+    "file": "assets/_default.page.client.615cd4bd.css",
+    "src": "src/renderer/_default.page.client.css"
+  }
+}

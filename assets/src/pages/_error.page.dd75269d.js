@@ -1,0 +1,1 @@
+import{c as n,g as e,S as a,t}from"../../chunk-788d98fe.js";const o=t("<div>Server Down</div>"),i=t("<div>404</div>");function m(r){return n(a,{get when(){return r.is404},get fallback(){return e(i)},get children(){return e(o)}})}export{m as Page};
