@@ -1,7 +1,8 @@
 import useMediaSelector from '~/hooks/useMediaSelector';
 import logo from '~/assets/images/logo.svg';
 import DesktopNav from '~/components/views/header/parts/DesktopNav';
-import MobileNav from '~/components/views/header/parts/MobileNav';
+
+const MobileNav = lazy(() => import('~/components/views/header/parts/MobileNav'));
 
 function Header() {
   const isSmall = useMediaSelector('(max-width: 1023px)');
@@ -13,7 +14,9 @@ function Header() {
         when={isSmall()}
         fallback={<DesktopNav />}
       >
-        <MobileNav />
+        <Suspense fallback={<DesktopNav />}>
+          <MobileNav />
+        </Suspense>
       </Show>
     </header>
   );
