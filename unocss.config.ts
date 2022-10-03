@@ -23,11 +23,11 @@ const config = defineConfig({
   },
   rules: [
     ['content-fill', { content: '"_"' }],
-    [/^((min|max)-)?size-(\d+)(.+)?$/, ([matcher]) => {
+    [/^((min|max)-)?size-(screen|(\d+)(.+))?$/, ([matcher]) => {
       const [type, sizePart] = matcher.split('size-');
-      const sizeNum = Number(sizePart);
+      if (sizePart == 'screen') return { [`${type}width`]: '100vw', [`${type}height`]: '100vh' };
       let size = sizePart;
-      if (sizeNum > 0) size = `${sizeNum / 4}rem`;
+      if (/^\d$/.test(sizePart)) size = `${Number(sizePart) / 4}rem`;
       else if (sizePart.includes('/')) {
         const [prev, suf] = sizePart.split('/');
         const percent = (100 * Number(prev)) / Number(suf);
