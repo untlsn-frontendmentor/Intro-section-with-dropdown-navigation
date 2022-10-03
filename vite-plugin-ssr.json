@@ -1,7 +1,7 @@
 {
   "version": "0.4.38",
   "usesClientRouter": true,
-  "baseUrl": "/",
+  "baseUrl": "/intro-section-with-dropdown-navigation/",
   "baseAssets": null,
   "includeAssetsImportedByServer": false
 }
