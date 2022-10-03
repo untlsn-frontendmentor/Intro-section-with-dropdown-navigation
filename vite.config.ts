@@ -21,7 +21,7 @@ export default defineConfig({
   },
   plugins: [
     inspect(),
-    ssr(),
+    ssr({ prerender: true }),
     solid({ ssr: true }),
     css(),
     autoImport({
